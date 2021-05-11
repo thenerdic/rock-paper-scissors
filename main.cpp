@@ -10,7 +10,7 @@ int main()
   // initialize seed generator
   srand (time(NULL));
 
-	int playerChoice;
+  int playerChoice;
   int computerChoice = rand() % 3 + 1;
 
   char playAgain = 'y';
