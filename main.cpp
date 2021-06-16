@@ -3,8 +3,6 @@
 #include <ctime>
 #include <string>
 
-//TODO Create seperate functions for cleaner code
-
 void determineWinner(int, int);
 int getPlayerChoice(int);
 int getComputerChoice(int);
