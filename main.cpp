@@ -22,6 +22,7 @@ int main()
 
     std::cout << "Do you want to play again? y/n\n";
     std::cin >> playAgain;
+    std::cout << "\033[H\033[2J\033[3J";
     
     if (playAgain == 'n')
     {
